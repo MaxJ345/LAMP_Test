@@ -10,8 +10,10 @@ curl_setopt($ch, CURLOPT_HEADER, 0);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 $output = curl_exec($ch);
-curl_close($ch);
 
+echo "<h2>Output:</h2>";
 echo $output;
+
+curl_close($ch);
 
 ?>
