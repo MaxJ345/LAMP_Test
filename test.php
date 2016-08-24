@@ -12,7 +12,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $output = curl_exec($ch);
 
 echo "<h2>Output:</h2>";
-echo $output;
+echo "<h1>please work: $output</h1>";
 
 curl_close($ch);
 
