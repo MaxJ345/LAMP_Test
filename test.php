@@ -11,11 +11,11 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $URL);
 //curl_setopt($ch, CURLOPT_FILE, $fp);
 curl_setopt($ch, CURLOPT_HEADER, 0);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 $result = curl_exec($ch);
 
-echo $result;
+//echo $result;
 
 curl_close($ch);
 //fclose($fp);
