@@ -14,7 +14,7 @@ curl_setopt($ch, CURLOPT_HEADER, 0);
 
 $output = curl_exec($ch);
 
-echo $output;
+//echo $output;
 
 curl_close($ch);
 //fclose($fp);
