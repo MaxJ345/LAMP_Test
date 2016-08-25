@@ -10,7 +10,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $result = curl_exec($ch);
 
 //echo $result;
-$result = json_decode($result);
+$result = json_decode($result, true);
 echo $result;
 print_r($result);
 
