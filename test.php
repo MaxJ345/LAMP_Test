@@ -7,7 +7,8 @@ $ch = curl_init("https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/Genetic
 curl_setopt($ch, CURLOPT_HEADER, 0);
 //curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-$result = curl_exec($ch);
+//$result = curl_exec($ch);
+curl_exec($ch);
 
 /*echo $result;
 echo "<br />";
