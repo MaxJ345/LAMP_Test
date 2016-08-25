@@ -9,7 +9,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 $result = curl_exec($ch);
 
-echo $result;
+//echo $result;
 $result = json_decode($result);
 echo $result;
 print_r($result);
